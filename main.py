@@ -31,7 +31,7 @@ def get_min_max_by_time(hour=None, minute=None):
     min_step = get_int_value_default(config, 'MIN_STEP', 11000)
     max_step = get_int_value_default(config, 'MAX_STEP', 15000)
   #  return int(time_rate * min_step), int(time_rate * max_step)
- return min_step, max_step
+     return min_step, max_step
 
 # 虚拟ip地址
 def fake_ip():
